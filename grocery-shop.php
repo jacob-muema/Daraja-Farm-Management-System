@@ -59,10 +59,10 @@ while($row = $result->fetch_assoc()) {
 $chatHistory = array_reverse($chatHistory);
 
 // M-Pesa Configuration
-define('CONSUMER_KEY', 'IdBtzK1kbopocwsNPsfx6zO8l6ysAfUaXaWV6je2c5aUAvgR');
-define('CONSUMER_SECRET', '54g5Oqk8ArC5VOhseu216FIGlMFkGyjo9CoK4oluLv7CkHluhNZuadZxh0SAo9Ia');
+define('CONSUMER_KEY', '');
+define('CONSUMER_SECRET', '');
 define('SHORTCODE', '174379');
-define('PASSKEY', 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919');
+define('PASSKEY', '');
 define('CALLBACK_URL', 'https://yourdomain.com/callback.php');
 define('MPESA_ENV', 'sandbox');
 define('OAUTH_URL', 'https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials');
